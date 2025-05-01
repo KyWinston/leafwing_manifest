@@ -6,10 +6,10 @@ use bevy::asset::{AssetApp, AssetLoadFailedEvent, AssetServer, Assets, LoadState
 use bevy::ecs::prelude::*;
 use bevy::ecs::system::SystemState;
 use bevy::log::{debug, error, error_once, info};
+use bevy::platform::collections::HashMap;
 use bevy::state::app::AppExtStates;
 use bevy::state::condition::in_state;
 use bevy::state::state::NextState;
-use bevy::utils::HashMap;
 
 use crate::asset_state::AssetLoadingState;
 use crate::manifest::Manifest;

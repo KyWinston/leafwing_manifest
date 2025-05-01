@@ -1,9 +1,6 @@
 use std::{borrow::Borrow, error::Error};
 
-use bevy::{
-    asset::Asset,
-    ecs::{system::Resource, world::World},
-};
+use bevy::{asset::Asset, ecs::{resource::Resource, world::World}};
 use serde::Deserialize;
 use thiserror::Error;
 
